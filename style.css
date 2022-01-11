@@ -1,0 +1,64 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Fira Sans', sans-serif;
+}
+body{
+    margin: 0;
+}
+
+/* for mobile & Leptoop */
+
+[class*="col-"]{
+float: left;
+padding: 10px;
+}
+[class*="col-"]{
+   width: 100%;
+    }
+/* for mobile */
+
+.nav{
+    background-color: rgb(15, 88, 136);
+    text-align: center;
+    padding: 1% 7%;
+}
+
+
+.nav-logo img{
+    width: 100px;
+    height: 100px;
+    
+}
+a{
+    color: wheat;
+    font-size: 20px;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 50px;
+}
+.nav h1{
+    color: wheat;
+    margin: 0%;
+    padding: top 10px;
+}
+
+.nav{
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.navbar-menu{
+    display: flex;
+    flex-direction: column;
+    text-transform: uppercase;
+}
+.navbar-menu{
+    background-color: rgb(15, 88, 136);
+    
+}
+
+.navbar-menu a:hover{
+background-color: gray;
+
+}
